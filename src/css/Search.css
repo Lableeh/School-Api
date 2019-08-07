@@ -1,0 +1,98 @@
+/*Search Bar CSS*/
+* {box-sizing: border-box;}
+
+.search-form-wrapper a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+
+.search-form-wrapper input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    width: 60%;
+  }
+
+.search-form-wrapper{
+    color:black;
+  
+}
+
+.search-by input[type=text] ,select, textarea{
+    width: 20%;
+      
+}
+
+.search-bar{
+  margin-bottom: 5%;
+}
+
+.search-btn{
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color:white;
+    border: 2px black;
+    border-radius: 15px;
+  }
+  
+  .search-btn:hover {background-color: #e7e7e7};
+
+  /*End of Search Bar CSS*/
+
+  /*Start of Search Display CSS*/
+  .searchSectionDetails-display-wrapper{
+    border-radius: 5px;
+    background-color: #b2d8d8;
+    padding: 20px;
+    width: 90%;
+    float: left;
+    height: 300px;
+    margin-left: 5%;
+  }
+
+  h3{
+      color: black;
+  }
+
+  .search-icon{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -65px;
+  }
+
+  /*START OF FLIGHT TABLE CSS*/
+.searchSectionDetails-display-container{
+  border-radius: 5px;
+  padding: 20px;
+  width:100%;
+
+}
+
+.searchSectionDetails-table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.searchSectionDetails-table td, .searchSectionDetails-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.searchSectionDetails-table tr{background-color: #f2f2f2;}
+/*Original alternate row code .user-table tr:nth-child(even){background-color: #f2f2f2;}*/ 
+.searchSectionDetails-table tr:hover {background-color: #ddd;}
+
+.sectionDetails-table-head th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:#005b96;
+  color: white;
+}

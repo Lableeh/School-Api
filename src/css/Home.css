@@ -1,0 +1,27 @@
+.column{
+    float: left;
+    width: 50%;
+}
+.home-wrapper:after{
+	display:table;
+	clear:both;
+    width:100%;	
+    
+}
+
+.home-wrapper{
+    color: white;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+p{
+    font-family: Verdana, Geneva, sans-serif;
+}
+h2{
+    font-family: 'Sofia';font-size: 22px;
+}
+
+/* body{
+    background-image: url(../images/246849-P3VW47-211.jpg);
+} */
